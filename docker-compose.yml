@@ -73,8 +73,3 @@ services:
     volumes:
       - ./etc/ssl:/etc/ssl
       - ./web:/var/www/html
-
-volumes:
-  web:
-    name: web
-    driver: local
